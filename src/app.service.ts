@@ -131,9 +131,6 @@ export class AppService {
 
     const result = await this.db.create(name, []);
     return result;
-
-
-
   }
 
 
