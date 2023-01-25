@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "node_modules",
+    "docs",
+    "coverage",
+    "allure-results",
+    "test",
+    "dist",
+    "**/*spec.ts"
+  ]
+}
