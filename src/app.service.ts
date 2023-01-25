@@ -127,6 +127,15 @@ export class AppService {
 
   }
 
-  
+  async insertWatchlist(name: string) {
+
+    const result = await this.db.create(name, []);
+    return result;
+
+
+
+  }
+
+
 
 }
